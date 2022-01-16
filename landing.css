@@ -9,8 +9,23 @@ body {
     color: #F9FAF8;
 }
 
+.nav,
+.footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 16px;
+   background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav {
-    display: flex;
+
     align-items: center;
     justify-content: space-between;
     margin: 0 150px;
